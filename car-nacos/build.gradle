@@ -1,0 +1,26 @@
+dependencies {
+
+    implementation(
+            'com.xkcoding:nacos-config',
+            'com.xkcoding:nacos-naming',
+            'com.xkcoding:nacos-istio',
+            'com.xkcoding:nacos-cmdb',
+
+            'cglib:cglib-nodep:2.2',
+            'org.apache.tomcat.embed:tomcat-embed-jasper:9.0.7',
+            'org.slf4j:log4j-over-slf4j',
+            'org.slf4j:jcl-over-slf4j',
+            'org.slf4j:jul-to-slf4j',
+            'io.jsonwebtoken:jjwt-api',
+            'org.springframework.boot:spring-boot-starter-security',
+            'org.mockito:mockito-core'
+    )
+    runtime(
+            'io.jsonwebtoken:jjwt-impl',
+            'io.jsonwebtoken:jjwt-jackson',
+    )
+    testImplementation 'org.mockito:mockito-core'
+    jar {
+        enabled = true
+    }
+}

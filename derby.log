@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Nov 22 17:14:28 CST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-016e-9264-2a6c-000005cde5f0 
+on database directory /Users/panglijun/nacos/data/derby-data with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 
+Loaded from file:/Users/panglijun/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.10.1.1/9f6f910f0373adc1b23c10f9b4bb151b7e7449f/derby-10.10.1.1.jar
+java.vendor=JetBrains s.r.o
+java.runtime.version=11.0.4+10-b304.77
+user.dir=/Users/panglijun/IdeaProjects/car
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
